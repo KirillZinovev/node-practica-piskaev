@@ -78,6 +78,9 @@ exports.updateForm = (req, res) => {
 
 exports.updateSubmit = (req, res, next) => {
   const id = req.params.id;
+  if (!req.body.entry) {
+    return next(new Error("Entry data is missing"));
+  }
   const updateInf = {
     title: req.body.entry.title,
     content: req.body.entry.content,

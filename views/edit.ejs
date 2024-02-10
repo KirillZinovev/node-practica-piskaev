@@ -40,7 +40,8 @@
           <div class="card entry" style="width: 66rem;">
             <div class="card-body"> 
               <div class="form-floating mb-3">
-                <form method="post" action="/edit/<%= entry.id %>?_method=PUT>" enctype="multipart/form-data">
+                <form method="post" action="/edit/<%= entry.id %>?_method=PUT" enctype="multipart/form-data">
+                  <input type="hidden" name="entry[id]" value="<%= entry.id %>">
                   <div class="mb-3">
                     <input
                       type="text"
@@ -53,9 +54,10 @@
                     />
                   </div>
                   <div class="mb-3">
-                    <textarea class="form-control" name="entry[content]" id="s" rows="3"><%= entry.content %></textarea></div>
+                    <textarea class="form-control" name="entry[content]" id="s" rows="3"><%= entry.content %></textarea>
+                  </div>
                   <div class="mb-3">
-                  <input type="file" value="/uploads//<%= entry.imagePath %>" class="form-control" name="entryImage" id="entryImage" aria-describedby="helpId" placeholder="Upload Image"/>
+                    <input type="file" class="form-control" name="entry[imagePath]" id="entryImage" aria-describedby="helpId" placeholder="Upload Image"/>
                   </div>
                   <input type="hidden" name="entry[timestamp]" value="<%= new Date() %>">
                   <button type="submit" value="Post" class="btn btn-primary text-center">
@@ -65,6 +67,7 @@
                     Назад
                   </a>
                 </form>
+                
               </div> 
             </div>
           </div>
