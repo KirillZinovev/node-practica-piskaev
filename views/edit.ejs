@@ -41,7 +41,6 @@
             <div class="card-body"> 
               <div class="form-floating mb-3">
                 <form method="post" action="/edit/<%= entry.id %>?_method=PUT" enctype="multipart/form-data">
-                  <input type="hidden" name="entry[id]" value="<%= entry.id %>">
                   <div class="mb-3">
                     <input
                       type="text"
