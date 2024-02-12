@@ -1,130 +1,25 @@
 {
-  message: 'Зашли на страницу',
+  message: 'Зашли на страницу с регистрацией',
   level: 'info',
-  timestamp: '2024-02-11T17:47:43.026Z'
+  timestamp: '2024-02-12T07:11:35.681Z'
 }
 {
-  message: 'Зашли на страницу',
+  message: 'Сервер запущен на порту 3000',
   level: 'info',
-  timestamp: '2024-02-12T06:02:54.341Z'
+  timestamp: '2024-02-12T07:12:16.297Z'
 }
 {
-  message: 'Зашли на страницу',
+  message: 'Зашли на страницу с логином',
   level: 'info',
-  timestamp: '2024-02-12T06:03:33.459Z'
+  timestamp: '2024-02-12T07:12:23.113Z'
 }
 {
-  message: 'Зашли на страницу',
+  message: 'Сервер запущен на порту 3000',
   level: 'info',
-  timestamp: '2024-02-12T06:03:41.040Z'
+  timestamp: '2024-02-12T07:13:05.239Z'
 }
 {
-  message: 'Зашли на страницу',
+  message: 'Зашли на страницу edit post',
   level: 'info',
-  timestamp: '2024-02-12T06:03:43.808Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:03:48.219Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:03:48.285Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:05:38.592Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:05:38.691Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:05:43.041Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:05:43.111Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:06:06.377Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:05.856Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:05.995Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:09.857Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:09.906Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:14.976Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:15.075Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:21.670Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:21.938Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:28.105Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:07:28.307Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:08:02.389Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:08:02.484Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:08:08.940Z'
-}
-{
-  message: 'Зашли на страницу',
-  level: 'info',
-  timestamp: '2024-02-12T06:08:09.037Z'
+  timestamp: '2024-02-12T07:13:41.322Z'
 }

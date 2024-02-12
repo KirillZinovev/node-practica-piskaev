@@ -31,7 +31,6 @@ exports.list = (req, res, next) => {
   Entry.selectAll((err, entries) => {
     if (err) return next(err);
     res.render("entries", { title: "Entries", entries: entries, link: link });
-    logger.info("Зашли на страницу");
   });
 };
 
@@ -73,6 +72,7 @@ exports.updateForm = (req, res) => {
       link: link,
       messanger: messanger,
     });
+    logger.info("Зашли на страницу edit post");
   });
 };
 

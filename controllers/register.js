@@ -1,3 +1,4 @@
+const logger = require("../logger");
 const User = require("../models/user");
 // const {emailValidation, passValidation}  = require("../middleware/validation");
 
@@ -6,6 +7,7 @@ const messanger = "https://kappa.lol/iSONv";
 
 exports.form = (req, res) => {
   res.render("registerForm", { errors: {}, link: link, messanger: messanger });
+  logger.info("Зашли на страницу с регистрацией");
 };
 
 exports.submit = (req, res, next) => {
@@ -14,6 +16,7 @@ exports.submit = (req, res, next) => {
   User.findByEmail(email, (error, user) => {
     if (error) return next(error);
     if (user) {
+      logger.error("Такой пользователь в базе уже существует.");
       console.log("Такой пользователь в базе уже существует.");
       res.redirect("/");
     } else {

@@ -35,6 +35,7 @@ class User {
       );
     } catch (err) {
       if (err) {
+        logger.error("Ошибка создания пользователя");
         console.error("Ошибка создания пользователя");
         return cb(err);
       }
