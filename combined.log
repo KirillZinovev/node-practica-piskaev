@@ -23,3 +23,63 @@
   level: 'info',
   timestamp: '2024-02-12T07:13:41.322Z'
 }
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-19T06:10:33.591Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:51:05.608Z'
+}
+{
+  message: 'Зашли на страницу с регистрацией',
+  level: 'info',
+  timestamp: '2024-02-19T07:51:14.577Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:52:26.664Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:52:34.801Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:52:59.723Z'
+}
+{
+  message: 'Зашли на страницу с логином',
+  level: 'info',
+  timestamp: '2024-02-19T07:53:01.967Z'
+}
+{
+  message: 'Зашли на страницу с регистрацией',
+  level: 'info',
+  timestamp: '2024-02-19T07:53:03.847Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-19T07:54:26.332Z'
+}
+{
+  message: 'Зашли на страницу с логином',
+  level: 'info',
+  timestamp: '2024-02-19T07:54:33.989Z'
+}
+{
+  message: 'Зашли на страницу с регистрацией',
+  level: 'info',
+  timestamp: '2024-02-19T07:54:35.765Z'
+}
+{
+  message: 'Token подготовлен eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicXd2ZTEzNDU0IiwiaWF0IjoxNzA4MzI5Mjg2LCJleHAiOjE3MDgzMzI4ODZ9.Ll8dh1sYUPeQVTb5IFuIVKjPjEw6zftQCvXdu6QdPFU',
+  level: 'info',
+  timestamp: '2024-02-19T07:54:46.579Z'
+}

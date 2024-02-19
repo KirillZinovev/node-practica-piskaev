@@ -1,5 +1,6 @@
 const logger = require("../logger");
 const User = require("../models/user");
+const jwt = require("jsonwebtoken");
 // const {emailValidation, passValidation}  = require("../middleware/validation");
 
 const link = "https://kappa.lol/VMimi";
@@ -26,6 +27,15 @@ exports.submit = (req, res, next) => {
         req.session.userName = name;
         res.redirect("/");
       });
+      const token = jwt.sign(
+        { name: req.body.name },
+
+        (process.env.JWTTOKENSECRET = "aboba"),
+        {
+          expiresIn: 60 * 60,
+        }
+      );
+      logger.info("Token подготовлен " + token);
     }
   });
 };
