@@ -12,6 +12,7 @@ const messanger = "https://kappa.lol/iSONv";
 const link = "https://kappa.lol/VMimi";
 const bodyParser = require("body-parser");
 const logger = require("./logger/index");
+const passport = require("passport");
 // const morgan = require("morgan");
 const winston = require("winston");
 const app = express();
@@ -21,6 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const myRoutes = require("./routers/index_routers");
 const userSession = require("./middleware/user_session");
+const passportFunction = require("./middleware/passport.js");
 require("dotenv").config;
 const port = process.env.PORT || "3000";
 
@@ -42,7 +44,9 @@ app.use(
     saveUninitialized: true,
   })
 );
-
+app.use(cookieParser());
+app.use(passport.initialize());
+passportFunction(passport);
 app.use(
   "/css/bootstrap.css",
   express.static(
