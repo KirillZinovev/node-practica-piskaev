@@ -243,3 +243,8 @@
   level: 'info',
   timestamp: '2024-02-26T08:46:04.517Z'
 }
+{
+  message: 'Токен подготовлен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicXdldmVxd3YiLCJpYXQiOjE3MDg5MzcyMDMsImV4cCI6MTcwODk0MDgwM30.F4W9nVYDz12MP43TcgR0Qu75vOhJzsVBSYRjJcBbnTc',
+  level: 'info',
+  timestamp: '2024-02-26T08:46:43.576Z'
+}
