@@ -83,3 +83,163 @@
   level: 'info',
   timestamp: '2024-02-19T07:54:46.579Z'
 }
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T07:54:49.153Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:00:48.207Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:04:40.882Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:05:18.397Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:05:57.097Z'
+}
+{
+  message: 'Зашли на страницу с регистрацией',
+  level: 'info',
+  timestamp: '2024-02-26T08:06:09.937Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:09:43.959Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:10:36.274Z'
+}
+{
+  message: 'Зашли на страницу с регистрацией',
+  level: 'info',
+  timestamp: '2024-02-26T08:10:56.001Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:11:30.610Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:11:45.582Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:13:05.952Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:13:32.003Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:14:38.536Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:16:03.342Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:25:55.685Z'
+}
+{
+  message: 'Сервер запущен на порту  + port',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:10.423Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:29:47.840Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:30:16.441Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:30:42.184Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:31:22.109Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:31:51.075Z'
+}
+{
+  message: 'Токен подготовлен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoid2VyYndlcmJ3ZXIxMyIsImlhdCI6MTcwODkzNjMyMSwiZXhwIjoxNzA4OTM5OTIxfQ.2VS7_WReET3PkOairP9_I_dMaSVtK2Z_yg85k1cnqe0',
+  level: 'info',
+  timestamp: '2024-02-26T08:32:01.581Z'
+}
+{
+  message: 'Token подготовка :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg5MzYzMzQsImV4cCI6MTcwODkzOTkzNH0.MOTLmuErMTuuO8jA5e8bLSEedoENqSuMjJbAkJFMzeA',
+  level: 'info',
+  timestamp: '2024-02-26T08:32:14.892Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-02-26T08:32:28.696Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-02-26T08:33:06.942Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:37:11.144Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:37:20.074Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:37:32.159Z'
+}
+{
+  message: 'Токен подготовлен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmVidHJ3YnJld2IiLCJpYXQiOjE3MDg5MzY2NzMsImV4cCI6MTcwODk0MDI3M30._2jet6dLUSLJOgatsldVrFK9VJqFoVq8tcw04NX5OFc',
+  level: 'info',
+  timestamp: '2024-02-26T08:37:53.171Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-02-26T08:45:51.229Z'
+}
+{
+  message: 'Токен подготовлен: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicXdldnZ3ZXF2cWV3dyIsImlhdCI6MTcwODkzNzE2NCwiZXhwIjoxNzA4OTQwNzY0fQ.bYGy0stKVo_1Qm1-Gejf7i6-zOOzgbaigyQl3nfXUAc',
+  level: 'info',
+  timestamp: '2024-02-26T08:46:04.517Z'
+}
