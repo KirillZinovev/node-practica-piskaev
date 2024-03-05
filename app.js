@@ -22,7 +22,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const myRoutes = require("./routers/index_routers");
 const userSession = require("./middleware/user_session");
-const passportFunction = require("./middleware/passport.js");
+// const passportFunction = require("./middleware/passport_jwt.js");
+const passportFunction = require("./middleware/passport_yandex");
 require("dotenv").config;
 const port = process.env.PORT || "3000";
 
@@ -46,6 +47,7 @@ app.use(
 );
 app.use(cookieParser());
 app.use(passport.initialize());
+app.use(passport.session());
 passportFunction(passport);
 app.use(
   "/css/bootstrap.css",
