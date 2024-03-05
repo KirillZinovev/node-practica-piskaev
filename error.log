@@ -3,3 +3,8 @@
   level: 'error',
   timestamp: '2024-02-12T07:01:48.213Z'
 }
+{
+  message: 'Имя или пароль неверный',
+  level: 'error',
+  timestamp: '2024-03-05T06:33:49.745Z'
+}

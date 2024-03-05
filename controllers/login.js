@@ -37,19 +37,19 @@ exports.submit = (req, res, next) => {
 
     req.session.userEmail = data.email;
     req.session.userName = data.name;
-
+    const jwt_time = process.env.jwtTime;
     const token = jwt.sign(
       {
-        name: req.body.name,
+        name: data.email,
       },
-      process.env.JWTTOCENSECRET || "aboba",
+      process.env.JWT_SECRET,
       {
-        expiresIn: 60 * 60,
+        expiresIn: jwt_time,
       }
     );
     res.cookie("jwt", token, {
       httpOnly: true,
-      maxAge: 60 * 60,
+      maxAge: jwt_time,
     });
     console.log("Токен подготовлен (на странице login): " + token);
     logger.info("Token подготовка :" + token);

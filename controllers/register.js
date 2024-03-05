@@ -24,12 +24,11 @@ exports.submit = (req, res, next) => {
         req.session.userEmail = email;
         req.session.userName = name;
 
-        // Генерация токена
         const token = jwt.sign(
           {
             name: req.body.name,
           },
-          process.env.JWTTOCENSECRET || "aboba",
+          process.env.JWT_SECRET,
           {
             expiresIn: 60 * 60,
           }

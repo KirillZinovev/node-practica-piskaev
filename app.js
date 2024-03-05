@@ -39,7 +39,7 @@ app.use("/uploads", express.static("uploads"));
 // app.use(morgan("tiny"));
 app.use(
   session({
-    secret: "process.env.SECRET",
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
   })
