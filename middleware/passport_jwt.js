@@ -1,10 +1,11 @@
 const JwtStrategy = require("passport-jwt").Strategy;
+
 const User = require("../models/user");
-const logger = require("../logger/index");
+const logger = require("../logger");
 
 require("dotenv").config();
 
-const cookieExtractor = function (req) {
+const cookieExtractor = (req) => {
   let token = null;
   if (req && req.cookies) {
     token = req.cookies["jwt"];
@@ -14,19 +15,19 @@ const cookieExtractor = function (req) {
 
 const options = {
   jwtFromRequest: cookieExtractor,
-  secretOrKey: process.env.JWT_SECRET,
+  secretOrKey: process.env.JWTTOKENSECRET,
 };
 
 function passportFunction(passport) {
   passport.use(
-    new JwtStrategy(options, function (jwt_payload, done) {
+    new JwtStrategy(options, (jwt_payload, done) => {
       User.findByEmail(jwt_payload.name, (err, user) => {
         if (err) return done(err, false);
         if (user) {
-          logger.info("Token accepted successfully");
+          logger.info("Token OK");
           return done(null, user);
         } else {
-          logger.info("Token not accepted");
+          logger.info("Token NOT OK");
           return done(null, false);
         }
       });

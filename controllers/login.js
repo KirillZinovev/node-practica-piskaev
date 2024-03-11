@@ -59,6 +59,7 @@ exports.submit = (req, res, next) => {
 
 exports.logout = (req, res, next) => {
   res.clearCookie("jwt");
+  res.clearCookie("connect.sid");
   req.session.destroy((err) => {
     if (err) return next(err);
     res.redirect("/login");
