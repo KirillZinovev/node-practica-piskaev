@@ -503,3 +503,13 @@
   level: 'info',
   timestamp: '2024-03-11T08:50:15.405Z'
 }
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-11T18:02:15.698Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-11T18:02:28.303Z'
+}
