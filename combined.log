@@ -523,3 +523,168 @@
   level: 'info',
   timestamp: '2024-03-11T18:12:07.836Z'
 }
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T06:01:58.350Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:02:14.838Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:08:41.550Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T06:21:15.621Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:46:40.803Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:52:31.349Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T06:52:41.181Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T07:09:19.942Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T07:09:28.571Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:18:34.740Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.189Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.195Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.419Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:40.434Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.280Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.282Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.284Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:43.285Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.436Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.446Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.450Z'
+}
+{
+  message: "development 404 Could't get path",
+  level: 'error',
+  timestamp: '2024-03-12T08:39:50.469Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:42:54.989Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:01.673Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:22.980Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:43:25.821Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:45:10.296Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:45:24.170Z'
+}
+{
+  message: 'Token подготовка :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMzViYXJkYWV2QGdtYWlsLmNvbSIsImlhdCI6MTcxMDIzMzI0MywiZXhwIjoxNzEwMjM4MjQzfQ._qGSMzYF_cVeomN7sqqt-soAoxFfb0ERy_rZ3NvoQu8',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:23.079Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:41.191Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:48.582Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-12T08:47:58.374Z'
+}
+{
+  message: 'Сервер запущен на порту 3000',
+  level: 'info',
+  timestamp: '2024-03-12T08:48:27.133Z'
+}
