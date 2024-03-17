@@ -2,12 +2,14 @@ const User = require("../models/user");
 const validate = require("../middleware/validate");
 const messanger = "https://kappa.lol/iSONv";
 const logger = require("../logger/index");
+const link = "https://kappa.lol/VMimi";
 const jwt = require("jsonwebtoken");
+
 require("dotenv").config();
 
 exports.form = (req, res) => {
   logger.info("Пользователь зашёл на страницу логина");
-  res.render("loginForm", { title: "Login", messanger: messanger });
+  res.render("loginForm", { title: "Login", messanger: messanger, link: link });
 };
 exports.submit = (req, res, next) => {
   User.authentificate(req.body.loginForm, (error, data) => {
@@ -29,7 +31,7 @@ exports.submit = (req, res, next) => {
       {
         name: data.email,
       },
-      process.env.JWT_SECRET,
+      process.env.JWTTOKENSECRET,
       {
         expiresIn: jwtTime,
       }
