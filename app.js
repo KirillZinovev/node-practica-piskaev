@@ -16,6 +16,7 @@ const passport = require("passport");
 const passportFunction = require("./middleware/passport_jwt");
 const passportFunctionYandex = require("./middleware/passport_yandex");
 const passportFunctionGoogle = require("./middleware/passport_go");
+const passportFunctionGitHub = require("./middleware/passport_github");
 // const morgan = require("morgan");
 const winston = require("winston");
 const app = express();
@@ -53,6 +54,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 passportFunctionYandex(passport);
 passportFunctionGoogle(passport);
+passportFunctionGitHub(passport);
 app.use(
   "/css/bootstrap.css",
   express.static(
