@@ -1177,11 +1177,20 @@
   message: 'Получили профиль от GitHub undefined',
   level: 'info',
   timestamp: '2024-03-18T08:02:04.101Z'
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:24.331Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:40.521Z'
 }
 {
   message: 'Пользователь вышел',
   level: 'info',
   timestamp: '2024-03-18T08:02:07.009Z'
+  timestamp: '2024-03-18T07:59:56.538Z'
 }
 {
   message: 'Пользователь зашёл на страницу логина',
@@ -1192,6 +1201,7 @@
   message: 'Получили профиль от Yandex [object Object]',
   level: 'info',
   timestamp: '2024-03-18T08:02:23.169Z'
+  timestamp: '2024-03-18T07:59:59.619Z'
 }
 {
   message: 'Получили профиль от Yandex [object Object]',
@@ -1217,6 +1227,22 @@
   message: 'Сервер запущен на порту 80',
   level: 'info',
   timestamp: '2024-03-18T08:04:57.400Z'
+  timestamp: '2024-03-18T08:00:03.430Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:30.350Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:34.901Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:36.840Z'
 }
 {
   message: 'Пользователь вышел',
@@ -1242,11 +1268,28 @@
   message: 'Пользователь вышел',
   level: 'info',
   timestamp: '2024-03-18T08:07:48.622Z'
+  timestamp: '2024-03-18T08:00:49.818Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:58.067Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:43.545Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:11.869Z'
 }
 {
   message: 'Пользователь зашёл на страницу логина',
   level: 'info',
   timestamp: '2024-03-18T08:07:50.880Z'
+  timestamp: '2024-03-18T08:02:19.933Z'
 }
 {
   message: 'Получили профиль от GitHub undefined',
@@ -1262,11 +1305,23 @@
   message: 'Получили профиль от Yandex [object Object]',
   level: 'info',
   timestamp: '2024-03-18T08:08:38.860Z'
+  timestamp: '2024-03-18T08:02:23.116Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:25.851Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:05.603Z'
 }
 {
   message: 'Пользователь зашёл на страницу логина',
   level: 'info',
   timestamp: '2024-03-18T08:08:41.601Z'
+  timestamp: '2024-03-18T08:03:11.111Z'
 }
 {
   message: 'Получили профиль от VK [object Object]',
@@ -1282,4 +1337,5 @@
   message: 'Пользователь зашёл на страницу логина',
   level: 'info',
   timestamp: '2024-03-18T08:09:06.544Z'
+  timestamp: '2024-03-18T08:03:13.992Z'
 }
