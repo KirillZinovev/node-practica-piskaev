@@ -28,7 +28,7 @@ router.get("/post", entries.form);
 router.post(
   "/post",
   upload.single("entryImage"),
-  passport.authenticate("jwt", { session: false }),
+
   validate.required("[entry[title]]"),
   validate.required("[entry[content]]"),
   validate.lengthAbove("[entry[title]]", 4),
@@ -77,12 +77,7 @@ router.put("/edit/:id", async (req, res, next) => {
     next(error);
   }
 });
-router.get(
-  "/auth/yandex",
-  passport.authenticate("yandex"),
-
-);
-
+router.get("/auth/yandex", passport.authenticate("yandex"));
 
 router.get(
   "/auth/yandex/callback",
@@ -92,17 +87,18 @@ router.get(
   }
 );
 
+router.get(
+  "/auth/google",
+  passport.authenticate("google", { scope: ["email", "profile"] })
+);
 
-router.get('/auth/google',
-  passport.authenticate('google', { scope:
-      [ 'email', 'profile' ] }
-));
-
-router.get( '/auth/google/callback',
-    passport.authenticate( 'google', {
-        successRedirect: '/',
-        failureRedirect: '/login'
-}));
+router.get(
+  "/auth/google/callback",
+  passport.authenticate("google", {
+    successRedirect: "/",
+    failureRedirect: "/login",
+  })
+);
 router.get(
   "/auth/github",
   passport.authenticate("github", { scope: ["user:email"] })
@@ -130,10 +126,6 @@ router.get("/", function (req, res) {
   // Здесь у вас есть доступ к req.user
   res.json(req.user);
 });
-
-
-
-
 
 router.get("/logout", login.logout);
 module.exports = router;
