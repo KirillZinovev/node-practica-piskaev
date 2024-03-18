@@ -116,6 +116,24 @@ router.get(
     res.redirect("/");
   }
 );
+router.get("/auth/vkontakte", passport.authenticate("vkontakte"));
+
+router.get(
+  "/auth/vkontakte/callback",
+  passport.authenticate("vkontakte", {
+    successRedirect: "/",
+    failureRedirect: "/login",
+  })
+);
+
+router.get("/", function (req, res) {
+  // Здесь у вас есть доступ к req.user
+  res.json(req.user);
+});
+
+
+
+
 
 router.get("/logout", login.logout);
 module.exports = router;
