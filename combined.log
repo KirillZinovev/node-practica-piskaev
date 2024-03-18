@@ -1153,3 +1153,58 @@
   level: 'info',
   timestamp: '2024-03-18T07:55:46.802Z'
 }
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:24.331Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:40.521Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:56.538Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T07:59:59.619Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:03.430Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:30.350Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:34.901Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:36.840Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:49.818Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:00:58.067Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-18T08:01:43.545Z'
+}

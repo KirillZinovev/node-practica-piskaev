@@ -28,7 +28,6 @@ router.get("/post", entries.form);
 router.post(
   "/post",
   upload.single("entryImage"),
-  passport.authenticate("jwt", { session: false }),
   validate.required("[entry[title]]"),
   validate.required("[entry[content]]"),
   validate.lengthAbove("[entry[title]]", 4),
