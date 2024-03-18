@@ -1208,3 +1208,38 @@
   level: 'info',
   timestamp: '2024-03-18T08:01:43.545Z'
 }
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:11.869Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:19.933Z'
+}
+{
+  message: 'Получили профиль от GitHub undefined',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:23.116Z'
+}
+{
+  message: 'Зашли на страницу edit post',
+  level: 'info',
+  timestamp: '2024-03-18T08:02:25.851Z'
+}
+{
+  message: 'Пользователь вышел',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:05.603Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:11.111Z'
+}
+{
+  message: 'Получили профиль от VK [object Object]',
+  level: 'info',
+  timestamp: '2024-03-18T08:03:13.992Z'
+}
