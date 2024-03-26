@@ -1339,3 +1339,293 @@
   timestamp: '2024-03-18T08:09:06.544Z'
   timestamp: '2024-03-18T08:03:13.992Z'
 }
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-26T06:01:24.021Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-26T06:01:43.867Z'
+}
+{
+  message: 'Пользователь зашёл на страницу логина',
+  level: 'info',
+  timestamp: '2024-03-26T06:05:24.543Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T06:05:27.792Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.226Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.241Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.247Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.249Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.256Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.257Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.259Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255) NOT NULL, `title` VARCHAR(255), `content` VARCHAR(255) NOT NULL, `imagePath` VARCHAR(255), `timestamp` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.261Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.267Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.269Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `isAdmin` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.272Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.280Z'
+}
+{
+  message: 'Сервер запущен на порту 80',
+  level: 'info',
+  timestamp: '2024-03-26T07:36:41.284Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.011Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.038Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.052Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.053Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.054Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.056Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.057Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255) NOT NULL, `title` VARCHAR(255), `content` VARCHAR(255) NOT NULL, `imagePath` VARCHAR(255), `timestamp` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.058Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.065Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.068Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `isAdmin` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.069Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.076Z'
+}
+{
+  message: 'Сервер запущен на порту 80, все базы данных синхронизированны',
+  level: 'info',
+  timestamp: '2024-03-26T08:13:37.077Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.830Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.842Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.865Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.866Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.868Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.869Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.870Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255) NOT NULL, `title` VARCHAR(255), `content` VARCHAR(255) NOT NULL, `imagePath` VARCHAR(255), `timestamp` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.872Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.888Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.890Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `isAdmin` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.895Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.923Z'
+}
+{
+  message: 'Сервер запущен на порту 80, все базы данных синхронизированны',
+  level: 'info',
+  timestamp: '2024-03-26T08:15:37.925Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.229Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.251Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = OFF',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.256Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.258Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.259Z'
+}
+{
+  message: 'Executing (default): PRAGMA foreign_keys = ON',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.266Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `entries`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.279Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `username` VARCHAR(255) NOT NULL, `title` VARCHAR(255), `content` VARCHAR(255) NOT NULL, `imagePath` VARCHAR(255), `timestamp` DATETIME, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.281Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`entries`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.296Z'
+}
+{
+  message: 'Executing (default): DROP TABLE IF EXISTS `users`;',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.298Z'
+}
+{
+  message: 'Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `age` INTEGER NOT NULL, `isAdmin` INTEGER, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL);',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.299Z'
+}
+{
+  message: 'Executing (default): PRAGMA INDEX_LIST(`users`)',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.308Z'
+}
+{
+  message: 'Сервер запущен на порту 80, все базы данных синхронизированны',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:15.309Z'
+}
+{
+  message: 'Получили профиль от Yandex [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:24.698Z'
+}
+{
+  message: 'Получили профиль от Google [object Object]',
+  level: 'info',
+  timestamp: '2024-03-26T08:53:31.806Z'
+}
