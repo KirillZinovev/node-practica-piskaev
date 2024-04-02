@@ -1,11 +1,12 @@
 const logger = require("../logger/index");
-const Entry = require("../models/db");
+const { Entry } = require("../models/db");
 const multer = require("multer");
 const link = "https://kappa.lol/VMimi";
 const messanger = "https://kappa.lol/iSONv";
 const path = require("path");
 const express = require("express");
 const router = express.Router();
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "uploads/");
@@ -29,7 +30,7 @@ exports.delete = (req, res, next) => {
 
 exports.list = async (req, res, next) => {
   try {
-    const entries = Entry.findAll();
+    const entries = await Entry.findAll();
     res.render("entries", { title: "Entries", entries: entries, link: link });
   } catch (err) {
     return next(err);
@@ -48,7 +49,6 @@ exports.submit = async (req, res, next) => {
     //   throw new Error("Content is required");
     // }
     const imagePath = req.file ? req.file.path : null;
-
     const entry = {
       username: username,
       title: data.title,
